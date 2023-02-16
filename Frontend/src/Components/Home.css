@@ -1,0 +1,94 @@
+
+    /* background-image: url(../img/hero/hero-1.jpg); */
+    /* height: 50vh; */
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+.about{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+/* About Section Padding */
+.sabout{
+    padding:110px 0px;
+}
+.cs-item i:hover{
+    background-color: #f36100;;
+    color: white;
+}
+/* classes section css */
+.classes{
+    background: #151515;
+    padding: 0px;
+}
+.row{
+    --bs-gutter-x: 0px;
+}
+    
+.cs-item i {
+    font-size: 50px;
+    height: 90px;
+    width: 90px;
+      
+    border-radius: 50%;
+    display: inline-block;
+    color: #f36100;
+    background-color:black;
+    line-height: 90px;
+    text-align: center;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+
+.class-item .ci-text .secondrow {
+    display: inline-block;
+    width: 46px;
+    height: 46px;
+    background: rgba(255, 255, 255, 0.1);
+    line-height: 46px;
+    text-align: center;
+    font-size: 24px;
+    color: #ffffff;
+    right: 30px;
+    bottom: 26px;
+}
+.lineicon{
+    display: flex;
+    justify-content: space-between;
+}
+.class-item .ci-pic img{
+    width: 98%;
+    height: auto;
+}
+ .lineicon a{
+    margin-right: 17px;
+}
+/* use for avoie over flow x axie */
+body{
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  /* css for FoData components */
+  textarea{
+    width: 100%;
+  }
+  .fodatacontaine{
+    background-image: url(..//img/form/fogataimgbg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:auto;
+     padding:140px 30px;
+
+
+  }
+  /* @media only screen and (max-width:992px){
+    .fodatacontaine{
+        padding: 0;
+    }
+  } */
+ 
+ 
+

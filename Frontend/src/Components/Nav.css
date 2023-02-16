@@ -1,0 +1,98 @@
+.navbar-nav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.carsolbtn{
+  background-color:black;
+  color: white;
+  font-size: 22px;
+  padding: 20px;
+  border-radius: 25px ;
+
+}
+/* <ul className="navbar-nav">
+           
+            <li className="nav-item">
+              <Link className="nav-link text-light" to="#">HOME</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link text-light" to="#">ABOUT US</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link text-light" to="#">CLASSES</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link text-light" to="#">SERVICES</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link text-light" to="#">CONTACTS</Link>
+            </li>
+           
+           
+          </ul> */
+          /* table ,th,tr,td{
+            border: 2px solid;
+            border-collapse: collapse;
+            padding: 22px;
+          } */
+          /* .tbrow .firsttable,th,tr,td{
+            border: 2px solid;
+            border-collapse: collapse;
+            padding: 22px;
+          } */
+          /* footer css */
+          .footiconhover:hover{
+            
+            background-color:rgb(255, 136, 0);
+            color: white;
+          }
+          .footiconhover{
+            font-size: 23px;
+            border-radius: 50%;
+            text-decoration: none;
+            padding: 12px;
+            color: white
+          }
+          .navbar{
+            position: sticky;
+              top: 0;
+              width: 100%;
+          }
+nav .navbar-brand img{
+  width: 70%;
+}
+nav .nav-link{
+  color: #fff;
+}
+.cursolbtn{
+  width: 170px;
+}
+@media only screen and (max-width:992px){
+
+  nav .nav-link {
+      color:black !important;
+    }
+
+}
+/* offcanvas-header style */
+.navbar-toggler{
+  background-color: #fff;
+}
+@media only screen and (max-width:992px) {
+
+  .navletflogo{
+    display:none;
+  }
+  .navbar-nav{
+    background-color: rgb(255, 136, 0);
+  }
+
+}
+
+
+/* footer section */
+.footer{
+  height: 91vh;
+}
